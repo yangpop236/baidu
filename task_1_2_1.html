@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_1_2_1</title>
+    <style>
+        body{
+            margin: 0px;
+            padding:0px 25px;
+            background-color: #111;
+        }
+        article{
+            background-color: #dedede;
+            overflow: hidden;
+        }
+        /* header CSS 开始 */
+        header{
+            width: 1300px;
+            height: 60px;
+            background-color: #343434;
+            margin:0 auto;
+        }
+        .logo{
+            float: left;
+        }
+        .nav{
+            float: right;
+        }
+        .nav>li{
+            float: left;
+            margin-right:30px;
+        }
+        .nav>li>a{
+            text-decoration: none;
+            color: white;
+            font-size:10px;
+        }
+        /* header CSS 结束 */
+
+        /* article section1 CSS 开始 */
+        .part1{
+            width: 1250px;
+            height:1000px;
+            margin:0 auto;
+            margin-top: 30px;
+            background-color:white;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 2px 1px 1px 2px #888888;
+        }
+        .part1>h3,h4{
+            color: #b4b4b4;
+        }
+        .part1_p{
+            text-indent:2em;
+        }
+        /* article section1 CSS 结束 */
+
+        /* article section2 CSS 开始 */
+        .part2{
+            width: 1250px;
+            height:1000px;
+            margin:0 auto;
+            margin-top: 20px;
+            background-color:white;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 2px 1px 1px 2px #888888;
+        }
+        .part2>h3,h4{
+            color: #b4b4b4;
+        }
+        .part2_p{
+            text-indent:2em;
+        }
+        .part2_list{
+            list-style: none;
+        }
+        /* article section2 CSS 结束 */
+
+        /* article section3 CSS 开始 */
+        .part3 {
+            width: 1250px;
+            height: 1250px;
+            margin: 0 auto;
+            margin-top: 20px;
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 2px 1px 1px 2px #888888;
+        }
+        .part3 div{
+            width: 150px;
+            height: 150px;
+            border: 1px solid #888888;
+            margin-bottom:10px;
+            text-align: center;
+        }
+        .part3 div img{
+            width: 100px;
+            height: 90px;
+        }
+        /* article section3 CSS 结束 */
+
+        /* article section4 CSS 开始 */
+        .part4 {
+            width: 1250px;
+            height: 450px;
+            margin: 0 auto;
+            margin-top: 20px;
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 2px 1px 1px 2px #888888;
+        }
+        .part4 table{
+           width: 1200px;
+           height: 100px;
+       }
+        span{
+            color: #9e989a;
+            font-size:12px;
+        }
+        .table_bottom{
+            background-color: #cccccc;
+        }
+        /* article section4 CSS 结束 */
+
+        /* article aside CSS 开始 */
+        aside {
+            width: 1250px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 30px;
+            box-sizing: border-box;
+            box-shadow: 2px 1px 1px 2px #888888;
+        }
+        table{
+            margin:0 auto;
+        }
+        .button{
+            text-align:center;
+            border:2px solid #a1a1a1;
+            padding:10px 40px;
+            background: #3456d0;
+            width:1200px;
+            border-radius:25px;
+            font-size:20px;
+            color: white;
+        }
+        /* article aside CSS 结束 */
+
+        /* footer CSS 开始*/
+        footer{
+            width: 1300px;
+            line-height:60px;
+            background-color:black;
+            margin:0 auto;
+            text-align: center;
+            color:white;
+        }
+        /* footer CSS 结束*/
+    </style>
+</head>
+<body>
+<header>
+    <img class="logo" src="images/logo.png" alt="找不到鸟...">
+    <ul class="nav">
+        <li><a href="#">导航链接一</a></li>
+        <li><a href="#">导航链接二</a></li>
+        <li><a href="#">导航链接三</a></li>
+        <li><a href="#">导航链接四</a></li>
+    </ul>
+</header>
+<article>
+    <section class="part1">
+        <h2>文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <h4>文章作者&nbsp;文章发表时间</h4>
+        <p class="part1_p">段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君，<br/>段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落，<br/>君段落君段落段落君段落君段落君段落君段落君段落君段落君段落君段落君<a href="https://www.baidu.com">有一个连接到百度</a>段落君段落君段落君段落君段落君段落君段落君段落君段落君段<strong>这里是不一样的粗体</strong>落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君。
+        </p>
+        <img src="images/pic_1.png" alt="找不到怪我咯- -">
+        <p class="part1_p">段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君，<br/>段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落，<br/>君段落君段落段落君段落君段落君段落君段落君段落君段落君段落君<b>这里就是粗体</b>段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君<a href="https://www.baidu.com" target="_blank">有一个连接到百度</a>段落君段落君段落君段落君段落君段落君段落君段落君段落君。</p>
+    </section>
+    <section class="part2">
+        <h2>另一篇文章的一级标题</h2>
+        <h3>另一篇文章的二级标题</h3>
+        <h4>文章作者&nbsp;文章发表时间</h4>
+        <p class="part2_p">段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君，<br/>段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君，<br/>段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君<a href="https://www.baidu.com">这里起飞去百度</a>段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君段落君这里是<b>这里是一般的粗体</b>段落君段落君段落君段落君段落君段落君段落君段落君。</p>
+        <img src="images/pic_1.png" alt="找不到怪我咯- -">
+        <ul class="part2_list">
+            <li>项目列表一</li>
+            <li>项目列表二</li>
+            <li>项目列表三</li>
+        </ul>
+    </section>
+    <section class="part3">
+        <h3>图片</h3>
+        <ul type="none">
+            <div>
+                <p>好看的图片</p>
+                <li><img src="images/pic_2.jpg" alt=""></li>
+            </div>
+
+            <div>
+                <p>好看的图片</p>
+                <li><img src="images/pic_2.jpg" alt=""></li>
+            </div>
+
+            <div>
+                <p>好看的图片</p>
+                <li><img src="images/pic_2.jpg" alt=""></li>
+            </div>
+
+            <div>
+                <p>好看的图片</p>
+                <li><img src="images/pic_2.jpg" alt=""></li>
+            </div>
+
+            <div>
+                <p>好看的图片</p>
+                <li><img src="images/pic_2.jpg" alt=""></li>
+            </div>
+
+            <div>
+                <p>好看的图片</p>
+                <li><img src="images/pic_2.jpg" alt=""></li>
+            </div>
+
+            <div>
+                <p>好看的图片</p>
+                <li><img src="images/pic_2.jpg" alt=""></li>
+            </div>
+
+
+        </ul>
+    </section>
+    <section class="part4">
+        <h2>最后一篇的一级标题</h2>
+        <h3>最后一篇的二级标题</h3>
+        <h4>文章作者&nbsp;文章发表时间</h4>
+        <ol>
+            <li>排名1</li>
+            <li>排名2</li>
+            <li>排名3</li>
+        </ol>
+        下面是一个表格
+        <table>
+            <tr>
+                <th>表头1</th>
+                <th>表头2</th>
+                <th>表头3</th>
+            </tr>
+            <tr>
+                <td>内容单元格</td>
+                <td>内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>内容单元格</td>
+                <td>内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>内容单元格</td>
+                <td>内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>内容单元格</td>
+                <td>内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr class="table_bottom">
+                <td>总计</td>
+                <td colspan="2">1000</td>
+            </tr>
+        </table>
+    </section>
+    <aside class="part5">
+        <h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+            <table cellspacing="5px">
+                <tr>
+                    <td>请输入邮箱地址</td>
+                    <td><input type="email" placeholder="这是一个文本输入框"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><span>邮箱地址请按要求格式输入</span></td>
+                </tr>
+                <tr>
+                    <td>请输入密码</td>
+                    <td><input type="password" placeholder="这是一个文本输入框" minlength="6" manlength="16"></td>
+                </tr>
+                <tr>
+                    <td>请重复输入密码</td>
+                    <td><input type="password" placeholder="这是一个文本输入框" minlength="6" manlength="16"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><span>密码请为6-16位英文数字</span></td>
+                </tr>
+                <tr>
+                    <td>性别</td>
+                    <td><input type="radio" name="gender" checked="checked">男<input type="radio"                                          name="gender">女</td>
+                </tr>
+                <tr>
+                    <td>城市</td>
+                    <td>
+                        <select>
+                            <option selected="selected">北京</option>
+                            <option>上海</option>
+                            <option>杭州</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>爱好</td>
+                    <td>
+                        <input type="checkbox">运动<input type="checkbox">艺术<input type="checkbox">科学
+                    </td>
+                </tr>
+                <tr>
+                    <td>个人描述</td>
+                    <td><textarea cols="80" rows="5" placeholder="这是一个多行输入框，输入您的个人描述" ></textarea></td>
+                </tr>
+            </table>
+            <div >
+                <input class="button" type="submit" value="确认提交">
+            </div>
+    </aside>
+</article>
+<footer>
+    版权所有&copy
+</footer>
+</body>
+</html>
