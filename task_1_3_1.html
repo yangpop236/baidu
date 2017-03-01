@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_1_3_1</title>
+    <style>
+        body{
+            margin:0px;
+            padding:20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .box{
+            border: 1px solid #999;
+            background-color: #eee;
+            padding:20px;
+            overflow: hidden;
+        }
+
+        /* 左边开始*/
+        .left{
+            width: 200px;
+            background-color:white;
+            border: 1px solid #999;
+            float: left;
+        }
+        .left .left_img{
+            margin:20px;
+        }
+        .logoname{
+            padding:14px;
+        }
+        /* 左边结束*/
+
+        /* 中间开始*/
+        .center{
+            padding: 20px;
+            margin-left: 220px;
+            margin-right: 140px;
+            background-color: white;
+            border: 1px solid #999;
+            overflow: hidden;
+        }
+        .center>p{
+            text-indent:2em;
+        }
+        /* 中间开始*/
+
+        /* 右边开始开始*/
+        .right{
+            width: 120px;
+            background-color:white;
+            border: 1px solid #999;
+            float: right;
+
+        }
+        img{
+            width: 80px;
+            height: 80px;
+            background-color:white;
+            float: left;
+        }
+        .img1{
+            margin:20px;
+        }
+        .img2,.img3,.img4{
+            margin:0px 20px 20px 20px;
+        }
+        /* 右边开始*/
+
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <!--左边开始-->
+    <div class="left">
+        <img class="left_img" src="images/football_logo.jpg" alt="">
+        <div class="logoname">欧洲足球顶级联赛</div>
+    </div>
+    <!--左边结束-->
+
+    <!--右边开始-->
+    <div class="right">
+        <img class="img1" src="images/F1.jpg" alt="">
+        <img class="img2" src="images/F2.jpg" alt="">
+        <img class="img3" src="images/F3.jpg" alt="">
+        <img class="img4" src="images/F4.jpg" alt="">
+    </div>
+   <!--右边结束-->
+
+    <!--中间开始，你看啊！！中间的竟然不在left和right中间！ ★放中间right就会换行 忘了就看收藏夹★-->
+    <div class="center">
+        <h2>欧洲足球顶级联赛</h2>
+        <p>欧洲足球五大联赛，是指欧洲的足球联赛中影响力以及竞技水平排名前五的联赛，即英格兰足球超级联赛（The Premier League）、意大利足球甲级联赛（Serie A）、德国足球甲级联赛（ Bundesliga ）、西班牙足球甲级联赛（La Liga）、法国足球甲级联赛（Ligue 1）。这些联赛代表着世界足坛最顶尖的足球水平，吸引了众多球星加盟，是世界足球发展的风向标。</p>
+        <h3>历史</h3>
+        <p>第二次世界大战后，足球在欧洲范围内很快复兴起来。随着欧洲冠军杯的创立，各个国家的足球运动交流日益频繁。由于环境与球风的不同，传统上来说，意大利和西班牙的联赛技术含量高，而英格兰的联赛更加注重身体对抗、比赛节奏较快。但大体说来，自20世纪50年代到90年代，各个联赛的之间的互相影响并不太大。虽然当时人们称意、英、西为三大联赛，但尚没有五大联赛的出现。由于联赛的兴旺与经济发达与否和国家队成绩有直接联系，因此在本世纪之前，意甲被认为是第一联赛，被誉为"小世界杯"。尤文图斯、AC米兰、国际米兰在欧洲赛场表现优异。而当时荷兰足球甲级联赛同样战绩彪炳，其影响力不逊如今的法甲。——<a href="http://baike.baidu.com/item/%E6%AC%A7%E6%B4%B2%E8%B6%B3%E7%90%83%E4%BA%94%E5%A4%A7%E8%81%94%E8%B5%9B#1" target="_blank">《百度百科》</a></p>
+        <h3>为什么标题不是五大联赛，而是顶级联赛呢？</h3>
+        <p>因为跟其他四个联赛相比，法甲竞争力不强。（虽然我大奉先曾在巴黎圣日耳曼后空翻，但是我还是不愿意把它和顶级挂上钩，我愿意，你管我？）</p>
+    <!--中间结束-->
+    </div>
+</div>
+</body>
+</html>
